@@ -1,3 +1,27 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://carlos-dev-yang.github.io/'
+languageCode = 'ko-kr'
+title = 'Carlos-yang'
+theme = 'PaperMod'
+
+[params]
+  description = "개발하며 생각을 정리하는 공간"
+  author = "Carlos yang"
+  
+  # 다크모드 기본 설정
+  defaultTheme = "dark"
+  
+  # 홈 화면 설정
+  [params.homeInfoParams]
+    Title = "안녕하세요 👋"
+    Content = "개발 관련 생각을 정리하는 블로그입니다"
+
+# 메뉴 설정
+[[menu.main]]
+  name = "글목록"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  name = "소개"
+  url = "/about/"
+  weight = 20
