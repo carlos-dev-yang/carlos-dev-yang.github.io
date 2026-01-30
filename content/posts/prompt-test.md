@@ -1,0 +1,277 @@
+# 🔮 오늘의 운세 AI 모델 비교 테스트
+
+## 📋 테스트 정보
+
+- **테스트 대상자**: 1986년 5월 8일 22시 40분생 (서울)
+- **대상 날짜**: 2026년 1월 30일
+- **테스트 모델**: Gemini 2.5 Flash Lite vs Gemini 3.0 Flash Preview
+- **테스트 목적**: 동일한 출생 정보와 프롬프트로 두 AI 모델의 운세 해석 품질 비교
+
+---
+
+## ⚡ 실행 성능 비교
+
+| 항목 | 모델 A (2.5-flash-lite) | 모델 B (3-flash-preview) |
+|------|------------------------|--------------------------|
+| 실행 시간 | 4.45초 | 18.70초 |
+| 응답 길이 | 3,500자 | 2,238자 |
+| 검증 결과 | ✅ 통과 | ✅ 통과 |
+
+---
+
+## 🎯 핵심 키워드 비교
+
+### 오늘의 한 글자
+
+| 모델 A | 모델 B |
+|--------|--------|
+| **變** (변화) | **化** (화) |
+
+### 선정 이유
+
+**모델 A (2.5-flash-lite)**
+> The day involves significant shifts, particularly with the Moon moving through different signs and squaring natal planets, indicating adaptability and change.
+
+→ 한글 번역: 하루 동안 중요한 변화가 있으며, 특히 달이 다양한 별자리를 거치면서 출생 행성들과 스퀘어를 형성하여 적응력과 변화를 나타냅니다.
+
+**모델 B (3-flash-preview)**
+> 네이탈 황소자리의 태양과 달이 현재 물병자리의 행성들과 사분면(Square)을 이루며 변화와 혁신을 요구받는 시기입니다.
+
+### 하루 전체 흐름
+
+**모델 A (2.5-flash-lite)**
+> The morning brings mental stimulation but potential friction, the afternoon offers grounded opportunities for material matters, and the evening encourages social connection and creative expression with a touch of unpredictability.
+
+→ 한글 번역: 아침은 정신적 자극과 함께 잠재적 마찰이 있고, 오후는 물질적 문제에 대한 안정적 기회를 제공하며, 저녁은 약간의 예측 불가능성과 함께 사회적 연결과 창의적 표현을 장려합니다.
+
+**모델 B (3-flash-preview)**
+> 오전에는 화성과 수성의 마찰로 다소 분주하고 예민하게 시작하나, 오후에 본인의 에너지가 정점에 달하며 저녁에는 정서적인 안정을 찾는 흐름입니다.
+
+---
+
+## ⏰ 시간대별 운세 비교
+
+### 🌅 오전 (06:00 - 12:00)
+
+#### 시간대 키워드
+| 모델 A | 모델 B |
+|--------|--------|
+| **긴장** | **긴장** |
+
+#### 핵심 Aspect
+**모델 A**: Natal Moon (Taurus 13.80°) <-> Daily Sun (Aquarius 9.97°) 90°/스퀘어(긴장)
+
+**모델 B**: Natal Mercury <-> Daily Mars 90°/스퀘어(긴장)
+
+#### 해석
+**모델 A (2.5-flash-lite)**
+> Your emotional nature clashes with the external focus of the day, creating a sense of unease. Inner feelings might be at odds with outward demands or societal expectations.
+
+→ 한글 번역: 당신의 감정적 본성이 하루의 외적 초점과 충돌하여 불안감을 조성합니다. 내면의 감정이 외부 요구사항이나 사회적 기대와 상충할 수 있습니다.
+
+**모델 B (3-flash-preview)**
+> 생각과 행동이 충돌하는 시기입니다. 급한 마음으로 인해 말실수를 하거나 서류상 오류를 범할 가능성이 높습니다. 주변과의 소통에서 날카로운 반응이 나올 수 있으니 주의가 필요합니다.
+
+#### 조언
+**모델 A (2.5-flash-lite)**
+> Acknowledge your feelings without letting them dictate your actions. Focus on practical tasks to ground yourself.
+
+→ 한글 번역: 감정이 행동을 좌우하지 않도록 하면서 감정을 인정하세요. 실용적인 과제에 집중하여 기반을 다지세요.
+
+**모델 B (3-flash-preview)**
+> 중요한 대화나 결정은 잠시 미루고, 업무를 시작하기 전 리스트를 꼼꼼히 점검하십시오.
+
+---
+
+### ☀️ 오후 (12:00 - 18:00)
+
+#### 시간대 키워드
+| 모델 A | 모델 B |
+|--------|--------|
+| **안정** | **주도** |
+
+#### 핵심 Aspect
+**모델 A**: Natal Sun (Taurus 17.67°) <-> Daily ASC (Taurus 17.48°) 0°/컨정션(합)
+
+**모델 B**: Natal Sun <-> Daily ASC 0°/컨정션(합)
+
+#### 해석
+**모델 A (2.5-flash-lite)**
+> Your core identity and personal expression align with the unfolding events of the day. This is a time when you can shine and be authentically yourself, leading to a sense of grounded confidence.
+
+→ 한글 번역: 당신의 핵심 정체성과 개인적 표현이 하루의 전개되는 사건과 일치합니다. 진정한 자신이 될 수 있고 안정적인 자신감으로 이어지는 시간입니다.
+
+**모델 B (3-flash-preview)**
+> 오늘의 하이라이트 시간대입니다. 데일리 상승점(ASC)이 네이탈 태양과 합을 이루며 본인의 존재감과 리더십이 크게 부각됩니다. 자신의 의지를 관철시키기에 가장 적합한 때입니다.
+
+#### 조언
+**모델 A (2.5-flash-lite)**
+> Embrace opportunities to lead or express your true self. Your natural talents will be recognized and appreciated.
+
+→ 한글 번역: 리더십을 발휘하거나 진정한 자신을 표현할 기회를 포용하세요. 당신의 타고난 재능이 인정받고 감사받을 것입니다.
+
+**모델 B (3-flash-preview)**
+> 회의나 미팅에서 주도적으로 의견을 제시하세요. 당신의 자신감이 타인에게 긍정적인 영향을 줍니다.
+
+---
+
+### 🌙 저녁 (18:00 - 24:00)
+
+#### 시간대 키워드
+| 모델 A | 모델 B |
+|--------|--------|
+| **기회** | **회복** |
+
+#### 핵심 Aspect
+**모델 A**: Natal Venus (Gemini 14.31°) <-> Daily Moon (Cancer 6.36°) 90°/스퀘어(긴장)
+
+**모델 B**: Natal Mercury <-> Daily Moon 60°/섹스타일(기회)
+
+#### 해석
+**모델 A (2.5-flash-lite)**
+> Your desire for social connection and pleasure might feel slightly frustrated or complicated. There could be a push and pull between wanting to express affection and needing emotional security.
+
+→ 한글 번역: 사회적 연결과 즐거움에 대한 욕구가 약간 좌절되거나 복잡해질 수 있습니다. 애정 표현과 감정적 안정감 사이에서 밀고 당기는 상황이 있을 수 있습니다.
+
+**모델 B (3-flash-preview)**
+> 게자리에 위치한 달이 당신의 수성과 조화로운 각도를 이룹니다. 낮 동안의 긴장이 풀리고 감성적인 소통이 원활해지며, 내면의 평화를 되찾는 시간이 될 것입니다.
+
+#### 조언
+**모델 A (2.5-flash-lite)**
+> Be patient with social interactions. Focus on activities that bring genuine comfort and emotional fulfillment.
+
+→ 한글 번역: 사회적 상호작용에 인내심을 가지세요. 진정한 편안함과 정서적 만족을 가져다주는 활동에 집중하세요.
+
+**모델 B (3-flash-preview)**
+> 일기를 쓰거나 가까운 사람과 따뜻한 대화를 나누며 하루의 피로를 정리하십시오.
+
+---
+
+## 🍀 오늘의 행운 요소
+
+### 파워 넘버
+| 모델 A | 모델 B |
+|--------|--------|
+| **5** | **17** |
+
+**모델 A 선정 이유**
+> Taurus Sun and North Node, ruled by Venus, often correlate with the number 5, representing growth and change.
+
+→ 한글 번역: 금성이 지배하는 황소자리 태양과 북쪽 노드는 성장과 변화를 나타내는 숫자 5와 종종 연관됩니다.
+
+**모델 B 선정 이유**
+> 네이탈 태양(17.67°)과 데일리 목성(17.54°)이 행운의 도수를 공유하고 있습니다.
+
+### 토템 아이템
+| 모델 A | 모델 B |
+|--------|--------|
+| **Jade** | **은색 반지** |
+
+**모델 A 선정 이유**
+> Jade is associated with Taurus, symbolizing grounding, prosperity, and emotional balance, reflecting the Sun's placement.
+
+→ 한글 번역: 옥은 황소자리와 연관되어 있으며, 안정감, 번영, 감정적 균형을 상징하며 태양의 배치를 반영합니다.
+
+**모델 B 선정 이유**
+> 게자리의 달과 물병자리의 금성 에너지를 조화롭게 연결하여 대인관계의 유연함을 돕습니다.
+
+### 소울 컬러
+| 모델 A | 모델 B |
+|--------|--------|
+| **Forest Green (#228B22)** | **스카이 블루 (#87CEEB)** |
+
+**모델 A 선정 이유**
+> Green is the ruling color of Venus and strongly linked to Taurus, promoting harmony and material well-being.
+
+→ 한글 번역: 녹색은 금성의 지배 색상이며 황소자리와 강하게 연결되어 조화와 물질적 안녕을 촉진합니다.
+
+**모델 B 선정 이유**
+> 물병자리의 공기 에너지를 강화하여 황소자리의 고착된 긴장감을 해소해 줍니다.
+
+### 액션 키워드
+| 모델 A | 모델 B |
+|--------|--------|
+| **Cultivate** | **경청** |
+
+**모델 A 선정 이유**
+> The Taurus Sun and North Node emphasize building and nurturing, reflecting the need to cultivate resources and relationships.
+
+→ 한글 번역: 황소자리 태양과 북쪽 노드는 구축과 양육을 강조하며, 자원과 관계를 가꾸는 필요성을 반영합니다.
+
+**모델 B 선정 이유**
+> 수성과 화성의 스퀘어를 완화하기 위해 말하기보다 듣기에 집중하는 것이 유리합니다.
+
+---
+
+## ⚠️ 오늘의 리스크 관리
+
+### 모델 A (2.5-flash-lite)
+
+**1. [대인관계]**
+> Morning Moon square Sun can create misunderstandings in communication. Be mindful of how your emotions are perceived by others and vice-versa.
+
+**2. [정서적]**
+> The evening Moon square Venus might lead to minor emotional frustrations in relationships. Avoid impulsive emotional reactions and seek clarity.
+
+### 모델 B (3-flash-preview)
+
+**1. [커뮤니케이션]**
+> 오전 시간대 성급한 언행으로 인해 불필요한 오해를 살 수 있으니 감정적인 대응을 자제하십시오.
+
+**2. [대인관계]**
+> 황소자리의 고집과 물병자리의 혁신적 성향이 충돌하여 주변인과 의견 대립이 발생할 수 있습니다.
+
+---
+
+## 📊 평가 설문
+
+귀하는 어느 모델의 운세 해석이 더 우수하다고 생각하십니까?
+
+### 평가 기준
+
+1. **정확성**: 점성술 지식에 기반한 해석의 정확도
+2. **유용성**: 실생활에 적용 가능한 실질적 조언
+3. **명확성**: 이해하기 쉽고 명확한 설명
+4. **통찰력**: 깊이 있고 의미 있는 통찰 제공
+5. **전체 만족도**: 전반적인 운세 해석 품질
+
+### 선택지
+
+- [ ] **모델 A (2.5-flash-lite)** - 더 빠르고 상세한 분석
+- [ ] **모델 B (3-flash-preview)** - 더 느리지만 간결한 분석  
+- [ ] **비슷함** - 두 모델의 품질이 유사함
+
+### 의견 (선택사항)
+
+```
+귀하의 선택 이유나 추가 의견을 자유롭게 작성해주세요.
+
+
+
+
+```
+
+---
+
+## 🔍 기술적 세부사항
+
+### 출생 정보
+- **생년월일**: 1986년 5월 8일
+- **출생 시간**: 22시 40분 (KST)
+- **출생 지역**: 서울 (37.6192°N, 126.9356°E)
+
+### 주요 행성 배치
+- 태양: 황소자리 17.67°
+- 달: 황소자리 13.80°
+- 수성: 황소자리 1.92°
+- 금성: 쌍둥이자리 14.31°
+- 화성: 염소자리 17.68°
+- 상승점: 사수자리 28.63°
+
+### 분석 날짜
+- **대상 날짜**: 2026년 1월 30일
+- **시간대**: 오전 6시, 오후 12시, 저녁 6시 (KST)
+
+---
+
+*이 테스트는 AI 모델의 점성술 해석 능력을 비교하기 위한 것으로, 실제 점성술 상담을 대체할 수 없습니다.*
